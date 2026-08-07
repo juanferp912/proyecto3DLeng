@@ -19749,8 +19749,8 @@ MonoBehaviour:
   - {fileID: 700000041}
   - {fileID: 700000051}
   - {fileID: 700000061}
-  powerupPrefab: {fileID: 100100000, guid: 0c7b8d9e1f2a4b5c8d6e7f9012345678, type: 3}
-  obstaclePrefab: {fileID: 100100000, guid: 1a2b3c4d5e6f7890abcdef1234567890, type: 3}
+  powerupPrefab: {fileID: 100100000, guid: ca718117a11f745b292c7dba21f42c00, type: 3}
+  obstaclePrefab: {fileID: 100100000, guid: 1d806fa299adb8a4eab57244b3d27969, type: 3}
   detectionRadius: 15
 --- !u!1 &700000010
 GameObject:
