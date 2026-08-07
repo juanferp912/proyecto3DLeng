@@ -44,9 +44,14 @@ public class ManagerItems : MonoBehaviour
         GameObject chosen = Random.value < 0.5f
             ? powerupPrefab : obstaclePrefab;
 
-        GameObject item = Instantiate(chosen,
+        if (chosen == null) return;
+
+        Object created = Instantiate((Object)chosen,
             spawnPoints[index].position,
             spawnPoints[index].rotation);
+
+        GameObject item = created as GameObject;
+        if (item == null) return;
 
         activeItems[index] = item;
 
